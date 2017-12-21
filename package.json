@@ -1,5 +1,5 @@
 {
-  "name": "moovly-eslintrc",
+  "name": "eslint-config-moovly",
   "version": "1.0.0",
   "description": ".eslintrc file for Moovly frontend projects.",
   "main": "index.js",
@@ -14,5 +14,8 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1"
+  },
+  "dependencies": {
+    "deep-assign": "^2.0.0"
   }
 }

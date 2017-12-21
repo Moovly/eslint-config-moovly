@@ -1,5 +1,7 @@
-module.exports = {
-  "extends": "airbnb",
+const airbnb = require('eslint-config-airbnb');
+const deepAssign = require('deep-assign');
+
+module.exports = deepAssign(airbnb, {
   "rules": {
     "indent": ["error", 4],
     "no-underscore-dangle": 0,
@@ -21,4 +23,4 @@ module.exports = {
       }
     }
   }
-}
+})
