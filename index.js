@@ -35,7 +35,7 @@ module.exports = deepAssign(airbnb, {
     "browser": true,
     "jest": true,
     "jquery": true
-  }
+  },
   "settings": {
     "import/resolver": {
       "webpack": {
