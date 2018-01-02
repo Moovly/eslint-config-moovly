@@ -12,6 +12,8 @@ module.exports = deepAssign(airbnb,
         "error",
         4
       ],
+      "react/no-unused-prop-types": false,
+      
       "react/jsx-indent-props": [
         "error",
         4
