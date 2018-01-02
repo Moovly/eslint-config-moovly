@@ -5,7 +5,7 @@ module.exports = deepAssign(airbnb,
   {
     "rules": {
       "indent": [
-        2,
+        "error",
         4
       ],
       "react/jsx-indent": [
@@ -13,11 +13,11 @@ module.exports = deepAssign(airbnb,
         4
       ],
       "react/jsx-indent-props": [
-        2,
+        "error",
         4
       ],
       "react/jsx-filename-extension": [
-        1,
+        "error",
         {
           "extensions": [
             ".js",
@@ -27,23 +27,13 @@ module.exports = deepAssign(airbnb,
       ],
       "no-underscore-dangle": 0,
       "max-len": [
-        2,
+        "error", 120, 4,
         {
-          "code": 80,
-          "tabWidth": 4,
           "ignoreUrls": true,
           "ignoreComments": false,
           "ignoreRegExpLiterals": true,
           "ignoreStrings": true,
           "ignoreTemplateLiterals": true,
-          "react/require-default-props": false,
-          "react/sort-comp": [1,  { "order": [
-            "static-methods",
-            "instance-variables",
-            "lifecycle",
-            "everything-else",
-            "render"
-          ]}]
         }
       ],
       "space-unary-ops": 1,
