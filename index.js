@@ -21,6 +21,7 @@ module.exports = deepAssign(airbnb,
           "ignoreTemplateLiterals": true
         }
       ],
+      "no-return-assign": 0,
       "space-unary-ops": 1,
       "no-unused-vars": [
         2,
@@ -30,7 +31,9 @@ module.exports = deepAssign(airbnb,
           "ignoreRestSiblings": true
         }
       ],
-      "jsx-a11y/click-event-have-key-event": false,
+      "jsx-a11y/no-autofocus": false,
+      "jsx-a11y/no-static-element-interactions": false,
+      "jsx-a11y/click-events-have-key-event": false,
       "jsx-a11y/no-noninteractive-element-interactions": [
         "warn",
         {
