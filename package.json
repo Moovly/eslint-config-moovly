@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-moovly",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": ".eslintrc file for Moovly frontend projects.",
   "main": "index.js",
   "scripts": {
