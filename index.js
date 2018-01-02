@@ -6,6 +6,7 @@ module.exports = deepAssign(airbnb, {
     "indent": ["error", 4],
     "react/jsx-indent": ["error", 4],
     "react/jsx-indent-props": ["error", 4],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-underscore-dangle": 0,
     "max-len": 0,
     "space-unary-ops" : 1,

@@ -1,6 +1,6 @@
 ## installation
 
-1. `npm install eslint-config-moovly`
+1. `npm install --save-dev eslint-config-moovly`
 
 2.
 ```
