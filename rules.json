@@ -18,7 +18,6 @@
       }
     ],
     "space-unary-ops": 1,
-    "react/forbid-prop-types": 0,
     "no-unused-vars": [
       2,
       {
@@ -41,6 +40,7 @@
         ]
       }
     ],
+    "react/forbid-prop-types": 0,
     "react/no-unused-prop-types": false,
     "react/jsx-indent": [
       "error",
@@ -56,6 +56,18 @@
         "extensions": [
           ".js",
           ".jsx"
+        ]
+      }
+    ],
+    "react/sort-comp": [
+      1,
+      {
+        "order": [
+          "static-methods",
+          "instance-variables",
+          "lifecycle",
+          "everything-else",
+          "render"
         ]
       }
     ]

@@ -62,13 +62,18 @@ module.exports = deepAssign(airbnb,
             ".jsx"
           ]
         }
-      "react/sort-comp": [1,  { "order": [
-        "static-methods",
-        "instance-variables",
-        "lifecycle",
-        "everything-else",
-        "render",
-      ]}],
+      ],
+      "react/sort-comp": [
+        1,
+        {
+          "order": [
+            "static-methods",
+            "instance-variables",
+            "lifecycle",
+            "everything-else",
+            "render"
+          ]
+        }
       ]
     },
     "globals": {
@@ -87,4 +92,5 @@ module.exports = deepAssign(airbnb,
       }
     }
   }
+
 )
