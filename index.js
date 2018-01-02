@@ -38,6 +38,13 @@ module.exports = deepAssign(airbnb,
           "ignoreTemplateLiterals": true,
         }
       ],
+      "react/sort-comp": [1,  { "order": [
+        "static-methods",
+        "instance-variables",
+        "lifecycle",
+        "everything-else",
+        "render",
+      ]}],
       "space-unary-ops": 0,
       "react/forbid-prop-types": 0,
       "no-unused-vars": [
