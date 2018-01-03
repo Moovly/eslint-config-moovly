@@ -27,13 +27,13 @@
       }
     ],
     "no-unused-expressions": [
-      "error", 
-      { 
-        "allowShortCircuit": true, 
-        "allowTernary": true 
+      "error",
+      {
+        "allowShortCircuit": true,
+        "allowTernary": true
       }
     ],
-    "jsx-a11y/click-event-have-key-event": false,
+    "jsx-a11y/click-events-have-key-events": false,
     "jsx-a11y/no-noninteractive-element-interactions": [
       "warn",
       {
