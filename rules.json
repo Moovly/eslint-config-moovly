@@ -18,6 +18,9 @@
       }
     ],
     "space-unary-ops": 1,
+    "no-mixed-operators": [
+      "warn"
+    ],
     "no-unused-vars": [
       2,
       {
@@ -34,6 +37,8 @@
       }
     ],
     "jsx-a11y/click-events-have-key-events": false,
+    "jsx-a11y/mouse-events-have-key-events": false,
+    "jsx-a11y/no-static-element-interactions": false,
     "jsx-a11y/no-noninteractive-element-interactions": [
       "warn",
       {
