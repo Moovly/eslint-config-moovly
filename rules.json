@@ -75,20 +75,5 @@
         ]
       }
     ]
-  },
-  "globals": {
-    "PIXI": true
-  },
-  "env": {
-    "browser": true,
-    "jest": true,
-    "jquery": true
-  },
-  "settings": {
-    "import/resolver": {
-      "webpack": {
-        "config": "./webpack.common.js"
-      }
-    }
   }
 }
