@@ -74,6 +74,7 @@
           "render"
         ]
       }
-    ]
+    ],
+    "react/no-did-mount-set-state": false
   }
 }
