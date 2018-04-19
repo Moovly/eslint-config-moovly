@@ -13,6 +13,6 @@
 3. Create an `.eslintrc` file at the root of your repo.
 ```
 {
-    "extends": "eslint-config-moovly"
+    "extends": "@moovly/eslint-config-moovly"
 }
 ```
